@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(161, 180, 218);
+    color: rgb(255, 255, 255);
+    font-family: 'times new roman';
+    font-size: large;   
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    
+}
+h3{
+    font-size: xx-large;
+}
+span{
+    color: red;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform:translate(-50%, -50%);
+    padding: 10px;
+    width: 55%;
+    background: rgb(36, 125, 160);
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 7px;
+}
+button{
+    color: rgb(10, 10, 10);
+    padding: 10px;
+    border: 2px solid white;
+    background: rgb(248, 244, 244);
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.logo{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+.out{
+    position: absolute;
+    right: -2%;
+    top: 35%;
+}
+.wel{
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+.car{
+    position: absolute;
+    right: 5%;
+    top: 81%;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}

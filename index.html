@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimension of outrigger calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <font color="000000"><h2 style="font-size: 300%  ;">Dimension calculator of outrigger</h2></font>
+
+
+   <div class="logo">
+    <img src="img/logo (3).png" width="400px"  alt="KLE_Tech">
+   </div>
+
+   <div class="out">
+    <img src="img/image.png" width="400px"  alt="Outrigger">
+   </div>
+
+   <div class="wel">
+    <img src="img/welcome.png" width="475px"  alt="Welcome to side stability test">
+   </div>
+
+   <div class="car">
+    <img src="img/car.png" width="300px"  alt="Car">
+   </div>
+
+    <div class="wrapper">
+        <p><h3>Please enter:</h3></p>
+        <p><h1>
+            Height of the vehicle in mm:
+            <input type="text" id="height"><br><span id="height_error"></span>
+        </p>
+
+        <p>CG of the vehicle in mm:
+            <input type="text" id="cg"><br><span id="cg_error"></span>
+        </p>
+
+        <p>Track_Width of the vehicle in mm:
+            <input type="text" id="tw"><br><span id="tw_error"></span>
+        </p>
+
+        <p>Ground clearance in mm:
+            <input type="text" id="ground"><br><span id="ground_error"></span>
+        </p>
+        <button id="btn"><h1>Calculate</h1></button>
+        <p id="output"></p>
+    </div>
+</body>
+    
+
+</html>
